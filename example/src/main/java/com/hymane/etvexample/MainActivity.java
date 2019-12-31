@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             editText.setLines(20);
             new AlertDialog.Builder(this)
                     .setTitle("内容")
-                    .setView(editText, DensityUtils.dp2px(this, 16), DensityUtils.dp2px(this, 16), DensityUtils.dp2px(this, 16), DensityUtils.dp2px(this, 16))
                     .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {

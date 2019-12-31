@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hymane.etvexample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.hymane.expandtextview.ExpandTextView
+            android:id="@+id/etv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="8dp"
+            app:contentText="哈氨基酸等今晚没空去骂死你的奶第七名大门的情况我们基酸等今晚没空去骂死你的奶skjfksjkjksjflkjsdalkfjdklsjfkldsjfkljdsklfjdklsjfkldsjfkldjs第七名大门的情况我们的马克思的门买点卡莫斯科的马上HHH"
+            app:contentTextSize="14sp"
+            app:expandHint="点击展开"
+            app:foldHint="点击收回"
+            app:textContentColor="?android:attr/textColorPrimary"
+            app:textHintColor="?android:attr/textColorPrimary"
+            app:textTitleColor="?android:attr/textColorSecondary"
+            app:titleVisible="false"
+            app:titleText="标题党"
+            app:titleTextSize="16sp">
+
+        </com.hymane.expandtextview.ExpandTextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动画时间" />
+
+            <SeekBar
+                android:id="@+id/sb_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="1500"
+                android:progress="600" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="最少行数(0-10)" />
+
+            <SeekBar
+                android:id="@+id/sb_min_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="4" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_modify_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改内容" />
+
+        <Button
+            android:id="@+id/btn_modify_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="换图标" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

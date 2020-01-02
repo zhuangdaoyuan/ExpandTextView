@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExpandText/ExpandText.iml" filepath="$PROJECT_DIR$/ExpandText/ExpandText.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExpandTextView.iml" filepath="$PROJECT_DIR$/ExpandTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/ExpandTextView-example.iml" filepath="$PROJECT_DIR$/example/ExpandTextView-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/ExpandTextView-library.iml" filepath="$PROJECT_DIR$/library/ExpandTextView-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects-ExpandTextView.iml" filepath="$PROJECT_DIR$/Projects-ExpandTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandText/library.iml" filepath="$PROJECT_DIR$/ExpandText/library.iml" />
     </modules>
   </component>
 </project>

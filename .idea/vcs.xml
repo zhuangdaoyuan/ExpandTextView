@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ExpandText" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ExpandTextView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ExpandTextView-ExpandTextView" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/library" vcs="Git" />
   </component>
 </project>

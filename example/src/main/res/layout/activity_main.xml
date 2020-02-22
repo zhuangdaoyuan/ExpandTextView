@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="8dp"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            app:minShowHeight="360dp"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingTop="8dp"
             app:contentText="哈氨基酸等今晚没空去骂死你的奶第七名大门的情况我们基酸等今晚没空去骂死你的奶skjfksjkjksjflkjsdalkfjdklsjfkldsjfkljdsklfjdklsjfkldsjfkldjs第七名大门的情况我们的马克思的门买点卡莫斯科的马上HHH"
